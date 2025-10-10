@@ -1,0 +1,4 @@
+C:/Users/nberk/Documents/cpptest-gstreamerrtspserver-pipelinechange/build/CMakeFiles/livecam_modules.dir
+C:/Users/nberk/Documents/cpptest-gstreamerrtspserver-pipelinechange/build/CMakeFiles/livecamgstreamer.dir
+C:/Users/nberk/Documents/cpptest-gstreamerrtspserver-pipelinechange/build/CMakeFiles/edit_cache.dir
+C:/Users/nberk/Documents/cpptest-gstreamerrtspserver-pipelinechange/build/CMakeFiles/rebuild_cache.dir

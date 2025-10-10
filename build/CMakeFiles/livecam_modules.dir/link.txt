@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc liblivecam_modules.a CMakeFiles/livecam_modules.dir/src/PipelineFactory.cpp.obj CMakeFiles/livecam_modules.dir/src/RTSPServer.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe liblivecam_modules.a

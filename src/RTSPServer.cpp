@@ -18,8 +18,8 @@ RTSPServer::~RTSPServer()
 }
 /*Bu on_media_configure() fonksiyonu, RTSP sunucusu her yeni pipeline (yani akış oturumu) oluşturduğunda otomatik olarak çağrılıyor.
 RTSP sunucusu yeni bir istemci bağlandığında oluşturduğu GStreamer pipeline nesnesini yakalayıp kaydetmek.
-Bu sayede sen daha sonra switchSource("/test", 1) diyerek o pipeline’ın içindeki input-selector elementine ulaşıp,
-anlık kaynak değişimi yapabiliyorsun (örneğin test videosundan kameraya geçiş).
+Bu sayede switchSource("/test", 1) diyerek o pipeline’ın içindeki input-selector elementine ulaşıp,
+anlık kaynak değişimi yapabiliyoruz
 */
 void on_media_configure(GstRTSPMediaFactory *factory, GstRTSPMedia *media, gpointer user_data)
 {

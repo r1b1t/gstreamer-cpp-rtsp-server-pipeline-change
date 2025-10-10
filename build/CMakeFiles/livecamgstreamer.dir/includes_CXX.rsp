@@ -1,0 +1,1 @@
+-I"C:/msys64/mingw64/bin/../include/gstreamer-1.0" -I"C:/msys64/mingw64/bin/../include/glib-2.0" -I"C:/msys64/mingw64/bin/../lib/glib-2.0/include" -I"C:/msys64/mingw64/bin/../include/orc-0.4" -I"C:/Users/nberk/Documents/cpptest-gstreamerrtspserver-pipelinechange/include"

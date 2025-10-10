@@ -42,7 +42,7 @@ std::string PipelineFactory::createSwitchablePipeline(int width, int height, int
 {
     return "( input-selector name=sel "
            // 1️⃣ statik test (Renkli SMPTE bar)
-           "videotestsrc is-live=true pattern=smpte ! "
+           "videotestsrc is-live=true pattern=snow ! "
            // ile formatlanıyor ve sıraya (queue) alınarak input-selector’a gönderiliyor.
            "video/x-raw,framerate=30/1,width=" +
            std::to_string(width) +
@@ -50,7 +50,7 @@ std::string PipelineFactory::createSwitchablePipeline(int width, int height, int
            " ! queue ! sel.sink_0 "
 
            // 2️⃣ hareketli top (pingpong)
-           "videotestsrc is-live=true pattern=ball ! "
+           "videotestsrc is-live=true pattern=gradient ! "
            // ile formatlanıyor ve sıraya (queue) alınarak input-selector’a gönderiliyor.
            "video/x-raw,framerate=30/1,width=" +
            std::to_string(width) +
